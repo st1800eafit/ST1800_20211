@@ -1,0 +1,19 @@
+stop-words = "gdrive/MyDrive/st1800github/out/meta/ejemplo2-metapy/lemur-stopwords.txt"
+prefix = "."
+
+dataset = "gdrive/MyDrive/st1800github/out/meta/ejemplo2-metapy/data"
+corpus = "file.toml"
+index = "ejemplo2-metapy-idx"
+
+query-judgements = "./ejemplo2-qrels.txt"
+
+[[analyzers]]
+method = "ngram-word"
+ngram = 1
+filter = "default-unigram-chain"
+
+[ranker]
+method = "bm25"
+k1 = 1.2
+b = 0.75
+k3 = 500
