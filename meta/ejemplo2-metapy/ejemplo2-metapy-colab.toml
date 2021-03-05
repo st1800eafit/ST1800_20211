@@ -1,7 +1,7 @@
-stop-words = "gdrive/MyDrive/st1800github/out/meta/ejemplo2-metapy/lemur-stopwords.txt"
+stop-words = "gdrive/MyDrive/st1800github/meta/ejemplo2-metapy/lemur-stopwords.txt"
 prefix = "."
 
-dataset = "gdrive/MyDrive/st1800github/out/meta/ejemplo2-metapy/data"
+dataset = "gdrive/MyDrive/st1800github/meta/ejemplo2-metapy/data"
 corpus = "file.toml"
 index = "ejemplo2-metapy-idx"
 
